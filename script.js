@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     yearEl.textContent = new Date().getFullYear();
   }
 
-  // Category filter
+ 
   const catButtons = document.querySelectorAll(".cat-btn");
   const products = document.querySelectorAll(".product-card");
 
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  // Pre-order modal
+  
   const modal = document.getElementById("preorder-modal");
   const modalOverlay = document.querySelector(".modal-overlay");
   const modalClose = document.querySelector(".modal-close");
@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Optional: basic phone check for Bangladesh-style numbers
+      
       const phonePattern = /^01[0-9]{9}$/;
       if (!phonePattern.test(phone)) {
         e.preventDefault();
@@ -108,8 +108,9 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
-      // Let normal form POST occur to preorder.php
-      // You can later convert this to AJAX if you want.
+      
+      
     });
   }
 });
+
