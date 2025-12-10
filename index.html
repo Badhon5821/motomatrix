@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MotoMatrix | Bikes & Accessories</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-icon">M</span>
+        <span class="logo-text">MotoMatrix By Badhon</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#preorder-section">Pre-order</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <h1>Pre-order Premium Bikes & Parts in One Place</h1>
+        <p>
+          Welcome to <strong>MotoMatrix</strong> – your hub for bikes, helmets,
+          and performance accessories. All items are available on <b>pre-order</b>.
+        </p>
+        <div class="hero-buttons">
+          <a href="#products" class="btn primary">Browse Products</a>
+          <a href="#preorder-section" class="btn secondary">Pre-order Now</a>
+        </div>
+        <p class="hero-note">* All orders are pre-order only. We will contact you after you submit your details.</p>
+      </div>
+      <div class="hero-image">
+        <img src="https://th.bing.com/th/id/OIP.ptTqnAdG47lJimyGSPh0OgHaE7?w=274&h=182&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Sport Bike">
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section id="categories" class="categories">
+    <div class="container">
+      <h2>Shop by Category</h2>
+      <div class="category-buttons">
+        <button class="cat-btn active" data-category="all">All</button>
+        <button class="cat-btn" data-category="bike">Bikes</button>
+        <button class="cat-btn" data-category="helmet">Helmets</button>
+        <button class="cat-btn" data-category="parts">Bike Parts</button>
+        <button class="cat-btn" data-category="accessories">Accessories</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2>Featured Products</h2>
+      <div class="product-grid">
+
+        <!-- Demo products - you will later change image & price -->
+
+        <!-- Bike 1 -->
+        <div class="product-card" data-category="bike">
+          <img src="https://bikeadvice.in/wp-content/uploads/2021/12/All-New-R15-Connected-Tech-Black-1536x1351-1-1200x1055.jpg" alt="Yamaha R15 v4 " />
+          <h3>Yamaha R15 v4 </h3>
+          <p class="price">৳ 520,000</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Yamaha R15 v4 "
+                  data-product-category="Bike">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Bike 2 -->
+        <div class="product-card" data-category="bike">
+          <img src="https://motonewsworld.com/wp-content/uploads/2021/10/2022-honda-cbr-150r-tricolor-front-right.jpg" alt="Honda CBR 150R " />
+          <h3>Honda CBR 150R </h3>
+          <p class="price">৳ 560,000</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Honda CBR 150R "
+                  data-product-category="Bike">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Helmet 1 -->
+        <div class="product-card" data-category="helmet">
+          <img src="https://th.bing.com/th/id/OIP.8vpJTPUEcbw0JXbW02Yw9QHaHa?w=177&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="LS2 FF800 Helmet " />
+          <h3>LS2 FF800 Helmet </h3>
+          <p class="price">৳ 16,500</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="LS2 FF800 Helmet "
+                  data-product-category="Helmet">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Helmet 2 -->
+        <div class="product-card" data-category="helmet">
+          <img src="https://www.bikestop.co.uk/media/catalog/product/m/t/mt-thunder-3-helmet-slang-matt-grey-img1.jpg?width=1000&height=1000&canvas=1000,1000&optimize=high&bg-color=255,255,255&fit=bounds" alt="MT Thunder 3 " />
+          <h3>MT Thunder 3 </h3>
+          <p class="price">৳ 13,900</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="MT Thunder 3 "
+                  data-product-category="Helmet">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Parts 1 -->
+        <div class="product-card" data-category="parts">
+          <img src="https://www.motovationusa.com/images/product/Triumph_street_triple_rs_2017_S1_titanium_muffler_auspuff_sc-project_scpjpeg-m_m_y-Triumph-Street-Triple-R-765-2018.jpeg" alt="Aftermarket Exhaust " />
+          <h3>Aftermarket Exhaust </h3>
+          <p class="price">৳ 8,500</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Aftermarket Exhaust "
+                  data-product-category="Bike Part">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Parts 2 -->
+        <div class="product-card" data-category="parts">
+          <img src="https://faito.co.id/contents/o2nyrFytAe.png" alt="Performance Brake Pads " />
+          <h3>Performance Brake Pads </h3>
+          <p class="price">৳ 2,200</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Performance Brake Pads "
+                  data-product-category="Bike Part">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Accessories 1 -->
+        <div class="product-card" data-category="accessories">
+          <img src="https://tse4.mm.bing.net/th/id/OIP.JyRWYMxjHv5ar4KD5eNmqQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Riding Gloves " />
+          <h3>Riding Gloves </h3>
+          <p class="price">৳ 2,800</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Riding Gloves "
+                  data-product-category="Accessory">
+            Pre-order
+          </button>
+        </div>
+
+        <!-- Accessories 2 -->
+        <div class="product-card" data-category="accessories">
+          <img src="https://m.media-amazon.com/images/I/613bo1ABCfL._AC_.jpg" alt="Bike Phone Holder " />
+          <h3>Bike Phone Holder </h3>
+          <p class="price">৳ 900</p>
+          <p class="tag">Pre-order only</p>
+          <button class="btn small pre-order-btn"
+                  data-product-name="Bike Phone Holder "
+                  data-product-category="Accessory">
+            Pre-order
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-order Section (anchor only, main form is in modal) -->
+  <section id="preorder-section" class="preorder-info">
+    <div class="container">
+      <h2>How Pre-order Works</h2>
+      <ol>
+        <li>Select your product and click <b>Pre-order</b>.</li>
+        <li>Fill up your name & phone number.</li>
+        <li>We will call you to confirm availability, delivery time, and payment.</li>
+      </ol>
+      <button class="btn primary open-empty-preorder">Pre-order without selecting product</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <h3>MotoMatrix</h3>
+        <p>Pre-order bikes, helmets, and accessories with confidence.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Phone: +8801824533106</p>
+        <p>Email: bodiulalambadhon@gmail.com</p>
+        <p>Location: Dhaka, Bangladesh</p>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> MotoMatrix. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pre-order Modal -->
+  <div id="preorder-modal" class="modal hidden">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <button class="modal-close">&times;</button>
+      <h2>Pre-order Form</h2>
+      <p class="modal-product-name">Product: <span id="selected-product-name">Custom / Not selected</span></p>
+
+      <form id="preorder-form" action="preorder.php" method="POST" novalidate>
+        <!-- Hidden product field -->
+        <input type="hidden" name="product_name" id="product_name_input" value="Custom / Not selected">
+
+        <div class="form-group">
+          <label for="customer_name">Name <span>*</span></label>
+          <input type="text" id="customer_name" name="customer_name" placeholder="Your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone Number <span>*</span></label>
+          <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" required>
+        </div>
+
+        <div class="form-group">
+          <label for="quantity">Quantity</label>
+          <input type="number" id="quantity" name="quantity" min="1" value="1">
+        </div>
+
+        <div class="form-group">
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Color preference, size, or any other details"></textarea>
+        </div>
+
+        <div class="form-message" id="form-message"></div>
+
+        <button type="submit" class="btn primary full-width">Submit Pre-order</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
